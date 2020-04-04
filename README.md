@@ -1,4 +1,4 @@
-# Rekognition Architecture :relaxed
+# Rekognition Architecture :relaxed:
 
 # What is Rekognition ? 
 - 딥러닝 기반의 수백만 이미지 인식/분석 서비스

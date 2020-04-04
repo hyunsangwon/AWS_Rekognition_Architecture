@@ -1,0 +1,12 @@
+## dynamo db 테이블 구조
+이미지 이름을 파티션키로 잡는다.
+이미지 생성날짜로 중복을 방지한다.
+maxText는 인식한 텍스트중 가장 긴 글을 추출한다.
+text는 Rekognition이 분석한 모든 Text를 추출한다.
+
+item :{
+    imgNo : partition Key,
+    imgDate : string,
+    maxText : string,
+    text : string[]
+}
